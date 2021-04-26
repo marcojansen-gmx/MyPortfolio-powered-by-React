@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+
+    <!--Bootstrapp CSS added for layout-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/background.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+
+    <div class="container text-center">
+        <!-- Navbar -->
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./MyProjects.html" class="active">MyProjects</a></li>
+                    <li><a href="./MyResumee.html">MyResumee</a></li>
+                    <li><a href="./MyLinks.html">MyLinks</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Start Main container -->
+        <div class="container text-center">
+            <div id="home-card" class="container bg-white rounded-lg shadow-lg overflow-hidden">
+                <!-- pictures carousel -->
+                <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
+                    <div class="flex-1 flex flex-col">
+                        <div class="carousel-inner">
+                            <div id="portfolioCarousel" class="bg-cover h-48 carousel slide" data-ride="carousel">
+
+                                <!-- Indicators -->
+                                <div class="carousel-item active">
+                                    <a href="https://dashboard.heroku.com/apps/who-let-the-dogs-out-1" target="_blank">
+                                    <img src="./pic/project1.png" alt="Project 1 Dog dating app"
+                                        width="750" height="400">
+                                    </a>
+                                    <div class="carousel-caption">
+                                        <h1>Who let the dogs out - click me</h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://fitness-tracker-with-mongo-db.herokuapp.com/?id=605abfd0c7f3590015f448d6" target="_blank">
+                                    <img src="./pic/project2.png" alt="Project 2 fitness tracker"
+                                        width="750" height="400">
+                                    </a>
+                                    <div class="carousel-caption">
+                                        <h1>Fitness Tracker - click me</h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://burgerhomework19878.herokuapp.com/" target="_blank">
+                                    <img src="./pic/project3.png" alt="Project 3 burger app"
+                                        width="750" height="400">
+                                    </a>
+                                    <div class="carousel-caption">
+                                        <h1>Burger app - click me</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://github.com/marcojansen-gmx/EmployeeInfoNodeApplication" target="_blank">
+                                <img src="./pic/project4.png" alt="Project 4 employee information app with node"
+                                    width="750" height="400">
+                                </a>
+                                <div class="carousel-caption">
+                                    <h1>Employee information tool (repo only, node app) - click here</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://marcojansen-gmx.github.io/Project-1-LotrOPotterQuiz/" target="_blank">
+                                <img src="./pic/project5.png" alt="Project 5"
+                                    width="750" height="400">
+                                </a>
+                                <div class="carousel-caption">
+                                    <h1>Lotter or Potter - click here</h1>
+                                </div>
+                            </div>
+                            <!-- add link https://github.com/marcojansen-gmx/Weather-App-with-APIs -->
+                            <div class="carousel-item">
+                                <a href="https://marcojansen-gmx.github.io/WeatherAppWithAPIs/" target="_blank">
+                                <img src="./pic/project6.jpg" alt="Project 6"
+                                    width="750" height="400">
+                                </a>
+                                <div class="carousel-caption">
+                                    <h1>Weather app - click here</h1>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#portfolioCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#portfolioCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex-1 flex flex-col">
+                    <div id="explain" class="mb-4 text-grey-darker text-sm flex-1">
+                        <p>This is a selection of projects I have been working on</p>
+                        <p>If you want a closer look, just click on the image</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container">
+            <footer class="center">
+                <div class="footer-copyright">
+                    <div class="container text-center" id="footer">
+                        <span> © 2021 Copyright</span>
+                        <br>
+                        <span> My Portfolio powered by React <br>
+                            <link rel="stylesheet" type="text/css"
+                                href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+                            Made with <i class="icon ion-heart"></i> By
+                            <a href="https://github.com/marcojansen-gmx/MyPortfolio-powered-by-React"
+                                target="blank"></a>
+                            <br>
+                            Marco
+                        </span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+        integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/navbar.js"></script>
+
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import IndexPage from "./pages/IndexPage";
 import LinksPage from "./pages/LinksPage";
@@ -10,7 +10,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path="/">
           <IndexPage />
@@ -25,7 +25,7 @@ function App() {
           <LinksPage />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

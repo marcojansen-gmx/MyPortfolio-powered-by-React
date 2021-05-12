@@ -24,7 +24,9 @@ export default function LinksPage() {
               <Link to="/MyResumee">MyResumee</Link>
             </li>
             <li>
-              <Link to="/MyLinks" className="active">MyLinks</Link>
+              <Link to="/MyLinks" className="active">
+                MyLinks
+              </Link>
             </li>
           </ul>
         </div>
@@ -83,17 +85,21 @@ export default function LinksPage() {
           >
             MyLinkedIn
           </Link>
-          <br/><br/>
+          <br />
+          <br />
           <Link to="https://github.com/marcojansen-gmx" target="_blank">
             MyGithub
           </Link>
-          <br/><br/>
-          <Link to="https://drive.google.com/file/d/1bGVaook0ZRow6wRV-fKKlmubkQCJEK_P/view?usp=sharing" target="_blank">
+          <br />
+          <br />
+          <Link
+            to="https://drive.google.com/file/d/1bGVaook0ZRow6wRV-fKKlmubkQCJEK_P/view?usp=sharing"
+            target="_blank"
+          >
             MyResumee to download
           </Link>
         </div>
       </div>
-      
 
       <div className="container">
         <footer className="center">

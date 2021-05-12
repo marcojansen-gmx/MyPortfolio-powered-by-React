@@ -4,6 +4,7 @@ import IndexPic2 from "../pic/Index2.jpg";
 import IndexPic3 from "../pic/Index3.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
+import "../css/ResumeePage.css";
 
 export default function ResumeePage() {
   return (
@@ -21,7 +22,9 @@ export default function ResumeePage() {
               <Link to="/MyProjects">MyProjects</Link>
             </li>
             <li>
-              <Link to="/MyResumee" className="active">MyResumee</Link>
+              <Link to="/MyResumee" className="active">
+                MyResumee
+              </Link>
             </li>
             <li>
               <Link to="/MyLinks">MyLinks</Link>
@@ -84,33 +87,29 @@ export default function ResumeePage() {
 
       <div className="p-4 flex-1 flex flex-col resumeeText">
         <div className="mb-4 text-grey-darker text-sm flex-1">
-          <h4>I am a senior software engineer at TMA technologies since 2011</h4>
+          <h3>Senior software engineer at TMA technologies since 2011</h3>
           <br />
-          <p>Education:</p>
-          <p>1987 – 1991 Kath. Grundschule Untereicken</p>
-          <p>1991 – 1999 Gymnasium am Geroweiher</p>
-          <p>1999 – 2000 Bundeswehr Grundwehrdienst (military duty)</p>
-          <p>
-            Since 09/01/2000 -02/28/2004 apprenticeship (communication
-            technician – field IT)
-          </p>
-          <p>
-            03/01/2004 – 02/28/2005 additional training (hotline service
-            technician -parking systems)
-          </p>
+          <h4>Projects and Responsiblilities:</h4>
+          <br />
+          <p>-Perth Airport maintance contract</p>
+          <p>-Perth Airport upgrades</p>
+          <p>-Australia wide software service and database maintanance</p>
+          <br />
+          <h3>Since 01/01/2010 hotline support engineer (east coast)</h3>
+          <br />
+          <h4>Projects and Responsiblilities:</h4>
           <br />
           <p>
-            03/01/2005 – 12/31/2007 hotline service technician international
+            -Upgrading the City of Baltimore to Entervo including 16 Garages
+            with a management computer/database server system
           </p>
+          <p>-Hotline Support for the entire East Coast</p>
           <br />
-          <p>Projects and Responsiblilities:</p>
-          <p>-Port of Portland (Oregon, US, Airport) upgrade</p>
-          <p>-Several Installations all over Europe and the US</p>
-          <p>-Hotline Support International (US, Australia, Asia, Europe)</p>
+
+          <h3>01/01/2008 - senior field technician – Devision Baltimore</h3>
           <br />
-          <p>01/01/2008 - senior field technician – Devision Baltimore</p>
+          <h4>Projects and Responsiblilities:</h4>
           <br />
-          <p>Projects and Responsiblilities:</p>
           <p>
             -Entervo upgrade of the City of Wilmington, including 8 Garages and
             a database server/management computer system
@@ -124,37 +123,64 @@ export default function ResumeePage() {
             and Bryn Mawr, PA
           </p>
           <br />
-          <p>Since 01/01/2010 hotline service technichian (east coast)</p>
+
+          <h4>
+            03/01/2005 – 12/31/2007 hotline service technician international
+          </h4>
           <br />
-          <p>Projects and Responsiblilities:</p>
+          <h4>Projects and Responsiblilities:</h4>
+          <p>-Port of Portland (Oregon, US, Airport) upgrade</p>
+          <p>-Several Installations all over Europe and the US</p>
+          <p>-Hotline Support International (US, Australia, Asia, Europe)</p>
+          <br />
+
+          <h4>Education:</h4>
+          <br />
+          <p>1987 – 1991 Kath. Grundschule Untereicken</p>
+          <p>1991 – 1999 Gymnasium am Geroweiher</p>
+          <p>1999 – 2000 Bundeswehr Grundwehrdienst (military duty)</p>
           <p>
-            -Upgrading the City of Baltimore to Entervo including 16 Garages
-            with a management computer/database server system
+            Since 09/01/2000 -02/28/2004 apprenticeship (communication
+            technician – field IT)
           </p>
-          <p>-Hotline Support for the entire East Coast</p>
+          <p>2020 – 2021 Digital Skill Boot Camp: Full Stack Flex</p>
+
+          <p>
+            03/01/2004 – 02/28/2005 additional training (hotline service
+            technician -parking systems)
+          </p>
+          <p>
+            03/01/2004 – 02/28/2005 additional training (hotline service
+            technician -parking systems)
+          </p>
           <br />
-          <p>Final examinations:</p>
+          <h5>Final examinations:</h5>
+          <br />
           <p>intermediate high school certificate</p>
           <p>finished apprenticeship</p>
           <br />
-          <p>Languages:</p>
+          <h5>Languages:</h5>
+          <br />
           <p>German fluently</p>
           <p>English fluently</p>
           <p>Latin</p>
           <br />
-          <p>Qualifications:</p>
-          <p>
-            Webdevelopment with Javascript, mySql, React, Node and many other
-            technologies
-          </p>
-          <p>specialized knowledge of</p>
+          <h4>Qualifications:</h4>
+          <br />
+          <p>Webdevelopment Frontend and Backend</p>
+
+          <p>express.js, Node.js</p>
+          <p>React.js</p>
+          <p>HTML, CSS, Javascript</p>
+          <p>MySql, Sequelize, MongoDB, Mongoose</p>
+          <p>MVC</p>
           <p>Microsoft/ Windows</p>
           <p>Oracle database handling</p>
           <p>Scheidt &amp; Bachmann specific programs for parking system</p>
           <p>and network administration</p>
           <p>Project managment training</p>
           <br />
-          <p>Hobbies</p>
+          <h5>Hobbies</h5>
           <br />
           <p>Middle-earth strategy game, Minecraft, soccer, Beach activities</p>
         </div>
